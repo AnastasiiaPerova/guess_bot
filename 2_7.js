@@ -66,7 +66,7 @@ const gameBotFunction = function () {
             tries--;
             getResult();
         } else {
-            const mayAgain = confirm('Попытки закончилиьс! Хотите попробовать еще раз?');
+            const mayAgain = confirm('Попытки закончилиcь! Хотите попробовать еще раз?');
 
             if (mayAgain === true) {
                 tries = 3;
